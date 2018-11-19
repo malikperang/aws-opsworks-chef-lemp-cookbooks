@@ -2,22 +2,8 @@ DEPENDENCIES
   lemp_stack
     path: .
     metadata: true
-  nginx
-    path: ../nginx
 
 GRAPH
-  build-essential (8.2.1)
-    mingw (>= 1.1)
-    seven_zip (>= 0.0.0)
+  apt (7.1.1)
   lemp_stack (0.1.0)
-  mingw (2.1.0)
-    seven_zip (>= 0.0.0)
-  nginx (9.0.0)
-    build-essential (>= 5.0)
-    ohai (>= 4.1.0)
-    yum-epel (>= 0.0.0)
-  ohai (5.2.5)
-  seven_zip (3.1.0)
-    windows (>= 0.0.0)
-  windows (5.2.0)
-  yum-epel (3.3.0)
+    apt (>= 0.0.0)

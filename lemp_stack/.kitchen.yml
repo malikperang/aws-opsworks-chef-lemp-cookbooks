@@ -16,9 +16,9 @@ platforms:
   - name: ubuntu-16.04
 
 suites:
-  - name: default
+  - name: myubuntu
     run_list:
-      - recipe[lemp_stack::default]
+      - recipe[lemp_stack::deploy]
     verifier:
       inspec_tests:
         - test/integration/default
